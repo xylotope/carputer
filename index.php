@@ -24,6 +24,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="thumbnail">
+                        <div id="car-stat1">0</div>
                         <div class="caption">
                             RPM
                         </div>
