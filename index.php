@@ -22,26 +22,62 @@
         <div class="container-fluid">
             <h2>Car Stats</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="thumbnail">
+                <div class="col-xs-4">
+                    <div class="well">
                         <div id="car-stat1">0</div>
                         <div class="caption">
                             RPM
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
+                <div class="col-xs-4">
+                    <div class="well">
                         <div class="caption">
                             Speed
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
+                <div class="col-xs-4">
+                    <div class="well">
                         <div class="caption">
                             Coolant Temp
                         </div>
+                    </div>
+                </div>
+            </div>
+            <h2>Music</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Artist</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Song 1</td>
+                                    <td>Band 1</td>
+                                </tr>
+                                <tr>
+                                    <td>Song 2</td>
+                                    <td>Band 1</td>
+                                </tr>
+                                <tr>
+                                    <td>Song 3</td>
+                                    <td>Band 2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="well">
+                        <button type="button" class="btn-default"><span class="glyphicon glyphicon-fast-backward"></span></button>
+                        <button type="button" class="btn-primary">Play</button>
+                        <button type="button" class="btn-default"><span class="glyphicon glyphicon-fast-forward"></span></button>
                     </div>
                 </div>
             </div>
