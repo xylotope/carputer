@@ -24,13 +24,15 @@ if __name__ == "__main__":
             connection = connect()
             while True:
                 r = connection.supports(obd.commands.RPM)
+                print r
                 if r == False:
-                    with open("../stats/rpm.txt", "w") as f:
+                    with open("../stats/rpm.txt", "w+") as f:
                         f.write("Off")
-                    connect()
+                    connection.close()
+                    connection = connect()
                 else:
-                    with open("../stats/rpm.txt", "w") as f:
-                        f.write(r)
+                    with open("../stats/rpm.txt", "w+") as f:
+                        f.write(str(connection.query(obd.commands.RPM)))
                 time.sleep(1)
     except KeyboardInterrupt:
         print "Good bye"

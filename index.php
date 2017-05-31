@@ -75,9 +75,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="well">
-                        <button type="button" class="btn-default"><span class="glyphicon glyphicon-fast-backward"></span></button>
-                        <button type="button" class="btn-primary">Play</button>
-                        <button type="button" class="btn-default"><span class="glyphicon glyphicon-fast-forward"></span></button>
+                        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fast-backward"></span></button>
+                        <button type="button" class="btn btn-primary">Play</button>
+                        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-fast-forward"></span></button>
                     </div>
                 </div>
             </div>
